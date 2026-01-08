@@ -18,7 +18,7 @@ const axios = require('axios');
 const http = require('http');
 
 // --- Configuration ---
-const DISCORD_TOKEN = 'MTQyNDQ5NTU5NjkyMzkxNjI4OA.GSbT0c.bbjya94V6zdYpT9HHizFfgKgTB928pb9XaZ04Y'; 
+const DISCORD_TOKEN = 'MTQyNDQ5NTU5NjkyMzkxNjI4OA.GY0SCc.4qfnvIySNLIsIONS8O5WDTJE11aEScMgRTBp5A'; 
 const VC_HOST = 'vcenter.example.local';
 const VC_USER = 'administrator@vsphere.local';
 const VC_PASS = 'your_password';
@@ -302,5 +302,6 @@ client.on(Events.InteractionCreate, async interaction => {
         await interaction.editReply({ embeds: [embed] });
     }
 });
+
 
 client.login(DISCORD_TOKEN);
